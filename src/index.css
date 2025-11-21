@@ -1,0 +1,14 @@
+@import "tailwindcss";
+body {
+  background-color: #FFF8E8;
+}
+
+/* Add space above pagination dots */
+.swiper-pagination {
+  margin-top: 25px !important; /* adjust value */
+  position: relative !important;
+}
+.swiper-pagination-bullet-active {
+  background-color:pink !important;   /* your active color */
+}
+
